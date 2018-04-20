@@ -13,7 +13,8 @@ end
 
 def take_a_number(array, name)
 array.push(name)
+new_variable=""
 array.each_with_index do |get_the_name, index|
-puts "Welcome, #{get_the_name}. You are number #{index+1} in line."
+new_variable<< "Welcome, #{get_the_name}. You are number #{index+1} in line."
 end
 end
