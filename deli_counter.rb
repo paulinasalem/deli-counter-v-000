@@ -12,6 +12,7 @@ end
 end
 
 def take_a_number(array, name)
-array.push(name)
-puts "Welcome, #{name}. You are number #{index-1} in line."
+array.push(name)=new_array
+new_array.each_with_index do |get_the_name, index|
+puts "Welcome, #{get_the_name}. You are number #{index+1} in line."
 end
