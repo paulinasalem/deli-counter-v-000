@@ -11,6 +11,6 @@ puts "The line is currently:#{new_variable}"
 end
 end
 
-def take_a_number(array, string)
-
+def take_a_number(array, name)
+array.push(name)
 end
